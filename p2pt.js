@@ -9,6 +9,7 @@ const randombytes = require('randombytes')
 const EventEmitter = require('events')
 const sha1 = require('simple-sha1')
 const debug = require('debug')('p2pt')
+const Buffer = require('buffer')
 
 /**
  * This character would be prepended to easily identify JSON msgs
