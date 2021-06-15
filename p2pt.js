@@ -306,11 +306,13 @@ class P2PT extends EventEmitter {
       }
     }
     this.peers = {}
+    this.responseWaiting = {}
 
     for (key in this.trackers) {
       this.trackers[key].destroy()
     }
     this.trackers = {}
+    this.msgChunks = {}
   }
 
   /**
