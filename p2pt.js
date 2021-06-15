@@ -305,9 +305,12 @@ class P2PT extends EventEmitter {
         this.peers[key][key2].destroy()
       }
     }
+    this.peers = {}
+
     for (key in this.trackers) {
       this.trackers[key].destroy()
     }
+    this.trackers = {}
   }
 
   /**
