@@ -14,7 +14,7 @@
     "test": "standard && start-server-and-test 'node start-trackers.js' 5001 test:all"
   },
   "dependencies": {
-    "bittorrent-tracker": "git+https://github.com/gkachru/bittorrent-tracker.git",
+    "bittorrent-tracker": "git+https://github.com/joravkumar/bittorrent-tracker.git",
     "randombytes": "^2.1.0",
     "simple-sha1": "^3.0.1"
   },
